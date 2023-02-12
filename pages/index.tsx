@@ -16,7 +16,7 @@ function App() {
     </Button>
     <DatePicker />
     <Button type="dashed" size="large">
-      Test Ant Design
+      Test Ant Design 2
     </Button>
     <Empty />
   </div>
