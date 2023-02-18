@@ -8,7 +8,7 @@ import { authProvider } from "../../auth/authProvider";
 
 const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com');
 
-const App = () => (
+const AdminPage = () => (
   <Admin dataProvider={dataProvider}>
     <Resource name="users" list={<UserList />} />
     <Resource name="posts" list={<PostList />} edit={<PostEdit />} create={<PostCreate />}/>
@@ -16,4 +16,4 @@ const App = () => (
   </Admin>
 );
 
-export default App;
+export default AdminPage;
