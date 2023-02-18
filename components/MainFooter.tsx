@@ -37,7 +37,7 @@ function MainFooter() : JSX.Element {
       </Row>
       <Row>
         <Col span={24} className='text-center bg-[#FF4206] text-white p-6'>
-          <div>Copyright 	&copy; 2021 Foodie Co., Ltd. All Right Reserved</div>
+          <div>Copyright 	&copy; 2022 Foodie Co., Ltd. All Right Reserved</div>
         </Col>
       </Row>
     </div>
