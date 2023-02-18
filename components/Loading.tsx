@@ -1,8 +1,13 @@
 import React from 'react'
 
-function Loading() {
+function Loading() : JSX.Element {
   return (
-    <div>Loading</div>
+    <div className="bounce-loading">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
   )
 }
 

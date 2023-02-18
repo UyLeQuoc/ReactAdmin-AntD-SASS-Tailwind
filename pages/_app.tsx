@@ -1,5 +1,4 @@
-import '../styles/globals.css';
-import 'antd/dist/antd.css';
+import '../styles/globals.scss';
 
 import { Provider } from 'react-redux';
 import { getPersistor } from '@rematch/persist';
