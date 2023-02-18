@@ -2,6 +2,7 @@
 import MainNavigation from '../components/MainNavigation';
 import MainFooter from '../components/MainFooter';
 import { Layout } from 'antd';
+import HomeContainer from '../container/HomeContainer';
 
 // Ant Design import
 const contentStyle: React.CSSProperties = {
@@ -16,10 +17,7 @@ function App() {
   return <>
     <Layout>
       <MainNavigation />
-      {/* <HomeContainer /> */}
-      <Layout.Content style={contentStyle}>
-        Hello World
-      </Layout.Content>
+      <HomeContainer />
       <MainFooter />
     </Layout>
   </>;
